@@ -288,6 +288,7 @@
   <ItemGroup>
     <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\ClearDirector.cs" />
+    <Compile Include="Assets\GameDirector.cs" />
     <Compile Include="Assets\PlayerController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
