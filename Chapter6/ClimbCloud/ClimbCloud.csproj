@@ -286,10 +286,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraController.cs" />
-    <Compile Include="Assets\ClearDirector.cs" />
-    <Compile Include="Assets\GameDirector.cs" />
-    <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\ClearDirector.cs" />
+    <Compile Include="Assets\Scripts\Cloud.cs" />
+    <Compile Include="Assets\Scripts\CloudGenerator.cs" />
+    <Compile Include="Assets\Scripts\GameDirector.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

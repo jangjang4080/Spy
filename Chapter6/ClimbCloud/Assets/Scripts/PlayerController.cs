@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour {
 
 	// 골 도착
 	void OnTriggerEnter2D(Collider2D other) {
-		Debug.Log("골");
+		Debug.Log("GAME OVER");
 		SceneManager.LoadScene("ClearScene");
 	}
 }
